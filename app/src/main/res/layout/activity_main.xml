@@ -6,28 +6,21 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <!--
-        TODO 2 add EditText
-        add an EditText here
-        set its id to “@+id/edit_text”
-        set its width to “match_parent” and height to “wrap_content”
-    -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText" />
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button" />
 
-    <!--
-        TODO 3 add Button
-        add a Button here
-        set its id to “@+id/button”
-        set its width to “match_parent” and height to “wrap_content”
-        set its text to “Click me!”
-    -->
-
-    <!--
-        TODO 4 change TextView id
-        set the id of the below TextView to “@+id/text_view”
-    -->
     <TextView
+        android:id="@+id/text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
 
 </LinearLayout>
