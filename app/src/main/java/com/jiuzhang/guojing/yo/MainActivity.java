@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         // TODO 5 get View using findViewById
         // get the EditText, the Button and the TextView using findViewById
         final EditText text = (EditText) findViewById( R.id.editText );
